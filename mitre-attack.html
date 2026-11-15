@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MITRE ATT&CK | TechTerms 101</title>
+<style>
+body{margin:0;background:#0f172a;color:#e2e8f0;font-family:Arial,sans-serif;line-height:1.8}
+main{max-width:800px;margin:auto;padding:35px 22px 70px}
+h1,h2,h3{color:#7dd3fc;line-height:1.4}
+h1{font-size:2.2rem}
+h2{margin-top:38px}
+h3{margin-top:25px}
+a{color:#38bdf8}
+li{margin:12px 0}
+.note{background:#1e293b;border-left:4px solid #38bdf8;padding:18px;border-radius:8px}
+footer{margin-top:50px;border-top:1px solid #475569;padding-top:20px}
+</style>
+</head>
+<body>
+<main>
+<a href="index.html">← Back to TechTerms 101</a>
+
+<h1>What is MITRE ATT&CK?</h1>
+<p><strong>MITRE ATT&CK</strong> is a massive open-source knowledge base that documents hacker and attack group behaviors and tactics based on real-world breach scenarios.</p>
+
+<p>The abbreviation ATT&CK stands for <strong>Adversarial Tactics, Techniques, and Common Knowledge</strong>.</p>
+
+<h2>Why is the MITRE ATT&CK Framework Important?</h2>
+<ul>
+<li><strong>Standardization of Terminology:</strong> Enables cybersecurity teams to speak a globally unified descriptive language to express threats.</li>
+<li><strong>Improving Defense Systems:</strong> Helps close gaps and cover blind spots that attackers might exploit.</li>
+<li><strong>Evaluating Security Tools:</strong> Used to test security tools and assess their ability to detect techniques in the matrix.</li>
+<li><strong>Understanding APT Group Threats:</strong> Provides a complete profile for each known hacker group and its specific techniques.</li>
+<li><strong>Attack Simulation:</strong> Assists Red Teams in executing realistic attack scenarios to test defensive readiness.</li>
+</ul>
+
+<h2>What is the MITRE ATT&CK Framework in Cybersecurity?</h2>
+
+<h3>First: Tactics — The Goal / Why?</h3>
+<p>Represents the attacker's ultimate objective at a specific stage of the breach.</p>
+
+<h3>Second: Techniques — The Method / How?</h3>
+<p>Represents the practical method an attacker uses to execute a tactic and achieve their goal.</p>
+
+<h3>Third: Procedures — Execution / With Which Tool?</h3>
+<p>Represents the specific implementation of a technique observed in a real-world attack.</p>
+
+<h2>MITRE ATT&CK Enterprise Tactics (The 14 Tactics)</h2>
+<ul>
+<li><strong>Reconnaissance:</strong> Gathering information about the target to plan future operations.</li>
+<li><strong>Resource Development:</strong> Establishing infrastructure, domains, or accounts to support targeting.</li>
+<li><strong>Initial Access:</strong> Gaining an initial foothold within the target network (e.g., via Phishing).</li>
+<li><strong>Execution:</strong> Running malicious code or scripts on the compromised system.</li>
+<li><strong>Persistence:</strong> Maintaining access across system restarts or credential changes.</li>
+<li><strong>Privilege Escalation:</strong> Gaining higher-level permissions (e.g., Administrator or Root).</li>
+<li><strong>Defense Evasion:</strong> Avoiding detection by security controls, antivirus, or logging systems.</li>
+<li><strong>Credential Access:</strong> Stealing account names, hashes, and passwords.</li>
+<li><strong>Discovery:</strong> Exploring the internal environment and network structure.</li>
+<li><strong>Lateral Movement:</strong> Moving through the network to compromise other high-value systems.</li>
+<li><strong>Collection:</strong> Gathering sensitive data of interest prior to exfiltration.</li>
+<li><strong>Command and Control (C2):</strong> Communicating with compromised systems from an external server.</li>
+<li><strong>Exfiltration:</strong> Stealing and transferring sensitive data out of the target network.</li>
+<li><strong>Impact:</strong> Disrupting availability, encrypting files (Ransomware), or destroying data.</li>
+</ul>
+
+<h2>Techniques and Sub-techniques (The How)</h2>
+<p>Each tactic in the MITRE ATT&CK framework consists of multiple Techniques and Sub-techniques.</p>
+
+<div class="note">
+<p><strong>Tactic:</strong> Privilege Escalation (Gaining higher permissions)</p>
+<p><strong>Technique:</strong> Process Injection (Injecting code into legitimate processes)</p>
+<p><strong>Sub-technique:</strong> Process Hollowing (Replacing process code with malicious payloads)</p>
+</div>
+
+<h2>Procedures (The Specific Execution)</h2>
+<p>Procedures are the most detailed level of MITRE ATT&CK. They describe how a specific hacker group implemented a technique in a real-world attack.</p>
+
+<p><em>If the Technique is what method was used, the Procedure is how it was specifically carried out.</em></p>
+
+<footer>
+<p>TechTerms 101 — Educational Cybersecurity Blog</p>
+<a href="https://attack.mitre.org/" target="_blank" rel="noopener noreferrer">Official MITRE ATT&CK Framework</a>
+</footer>
+</main>
+</body>
+</html>
